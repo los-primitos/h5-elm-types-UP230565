@@ -1,5 +1,4 @@
 module Helper exposing (..)
-
 type GradeStatus
     = Approved
     | Failed
