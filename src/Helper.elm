@@ -1,4 +1,6 @@
 module Helper exposing (..)
+
+
 type GradeStatus
     = Approved
     | Failed
@@ -9,8 +11,10 @@ getcategoricalGrade : Float -> GradeStatus
 getcategoricalGrade number =
     if number < 0 then
         Pending
+
     else if number >= 7 then
         Approved
+
     else
         Failed
 
